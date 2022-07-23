@@ -1,0 +1,24 @@
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-image: linear-gradient(to right, rgb(67, 24, 92) , rgb(103, 51, 134));
+}
+.head-img
+{
+    width:100px;
+}
+.head-left{
+display:flex;
+gap:20px;
+align-items:center;
+color:white;
+
+}
+.head-right{
+    font-size:24px;
+    font-weight: 500;
+    padding: 0 20px;
+    color:white;
+   
+}

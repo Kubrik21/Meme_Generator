@@ -1,9 +1,12 @@
 import './App.css';
+import {Head} from "./header"
+import {Meme} from "./meme"
 
 function App() {
   return (
     <div className="App">
-     <h1>Meme</h1>
+      <Head />
+      <Meme />
     </div>
   );
 }
