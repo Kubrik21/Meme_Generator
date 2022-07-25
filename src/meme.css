@@ -30,3 +30,6 @@
 .buttom:active{
     background:linear-gradient(to right , rgb(147, 91, 168),rgb(82, 19, 105));;
 }
+.meme{
+    margin:60px;
+}
