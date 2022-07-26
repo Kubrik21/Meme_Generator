@@ -9,6 +9,8 @@
     width: 400px;
     height:50px;
     border-radius: 10px;
+    padding:10px;
+    font-size: 20px;
 }
 
 .input > input::placeholder {
@@ -26,10 +28,34 @@
     color:white;
     height:50px;
     cursor:pointer; 
+    margin:10px;
 }
 .buttom:active{
     background:linear-gradient(to right , rgb(147, 91, 168),rgb(82, 19, 105));;
 }
 .meme{
     margin:60px;
+}
+.meme-text-top{
+    position:absolute;
+
+    top: 12%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.meme-element{
+    position:relative;
+  
+}
+.meme-text-bottom{
+    position:absolute;
+    bottom: 5%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
 }
